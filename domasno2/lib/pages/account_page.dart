@@ -35,7 +35,7 @@ class AccountPage extends StatelessWidget {
         actions: [
           TextButton(
             onPressed: logout,
-            child: const Text('Log out'),
+            child: const Text('Log out', style: TextStyle(color: Colors.white),),
           )
         ],
         leading: IconButton(

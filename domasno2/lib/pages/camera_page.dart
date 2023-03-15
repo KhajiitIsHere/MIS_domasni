@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 
 class CameraPage extends StatefulWidget {
+  final CameraDescription camera;
+  final void Function() openHomePage;
+
   const CameraPage({
     super.key,
     required this.camera,
     required this.openHomePage,
   });
-
-  final CameraDescription camera;
-  final void Function() openHomePage;
 
   @override
   CameraPageState createState() => CameraPageState();
